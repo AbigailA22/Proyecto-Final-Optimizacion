@@ -58,7 +58,8 @@ with col1:
         beta = st.slider("Selección del valor de beta (β)", 0.01, 1.00, value=0.50)
         epsilon = st.slider("Selección del valor de epsilon", 0.01, 1.00)
         Num = st.number_input("Escriba el número deseado de variables", value=2)
-        
+        st.write("Nota: El valor inicial se generará aleatoriamente")
+             
         if(option == "Función de Rastrigin"):
             limInf = st.number_input("Escriba el límite inferior", value=-5.12)
             limSup = st.number_input("Escriba el límite superior", value=5.12)
