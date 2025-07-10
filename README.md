@@ -37,4 +37,10 @@ Además, para la resolución de los métodos multivariables, se puede probar con
 El trabajo se planeó como una página web, así que los resultados puede ser visualizados al seguir el siguiente [enlace](https://proyecto-tercer-parcial-6rozmy6lq3qbficc2hrqfe.streamlit.app/).
 
 O puede ser descargado y ejecutado de la siguiente manera:
+1. Clonar repositorio, o en sud efecto, descargar el archivo ZIP y descomprimirlo.
+2. Ir al directorio del proyecto y ejecutar `py -m venv .venv`
+3. Activar el ambiente creado, usando `.venv\Scripts\activate`
+4. Instalar los requisitos (que se encuentran en el archivo correpondiente): `pip install -r requirements.txt`
+5. Ejecutar el código `streamlit run Main.py`
+Nota: Una vez que se han descargado los requisitos en el ambiente, para el resto de ejecuciones solo será necesario activar el ambiente y ejecitar el código, con los comandos especificados.  
 
