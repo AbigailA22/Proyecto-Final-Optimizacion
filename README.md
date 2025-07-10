@@ -34,6 +34,7 @@ Además, para la resolución de los métodos multivariables, se puede probar con
 * Función de Himmelblaus
 * Función de McCormick
 
+##### Ejecución
 El trabajo se planeó como una página web, así que los resultados puede ser visualizados al seguir el siguiente [enlace](https://proyecto-tercer-parcial-6rozmy6lq3qbficc2hrqfe.streamlit.app/).
 
 O puede ser descargado y ejecutado de la siguiente manera:
