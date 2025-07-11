@@ -54,6 +54,7 @@ with col1:
         delta = st.slider("Selección del valor de delta", 0.01, 1.00)     
         Num = st.number_input("Escriba el número deseado de variables", value=2)
         M = st.number_input("Escriba el número máximo de iteraciones", value=100)
+        st.write("Nota: El valor inicial se generará aleatoriamente")
 
         if(option == "Función de Rastrigin"):
             limInf = st.number_input("Escriba el límite inferior", value=-5.12)
