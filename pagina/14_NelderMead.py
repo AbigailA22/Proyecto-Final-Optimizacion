@@ -44,7 +44,6 @@ st.markdown('<div style="text-align: justify;">En realidad se puede usar cualqui
 'requerirá de más evaluaciones de funciones para convergir al óptimo. Por ello, es recomendable usar los valores: γ cercano a 2.0 y |β| a 0.5 </div>', unsafe_allow_html=True)
 
 st.header("Resolución de Problemas")
-st.write("Nota: El valor inicial se generará aleatoriamente")
 col1, col2 = st.columns(2)
 with col1:
     with st.form("my_form"):
